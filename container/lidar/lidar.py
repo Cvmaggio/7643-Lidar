@@ -33,7 +33,6 @@ logger.setLevel(logging.DEBUG)
 classes = ("plane", "car", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck")
 
 
-# https://github.com/pytorch/tutorials/blob/master/beginner_source/blitz/cifar10_tutorial.py#L118
 class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()

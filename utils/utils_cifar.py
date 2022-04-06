@@ -25,7 +25,7 @@ def _get_transform():
     )
 
 
-def get_train_data_loader(data_dir="/tmp/pytorch/cifar-10-data"):
+def get_train_data_loader(data_dir="/tmp/lidar"):
     transform = _get_transform()
     trainset = torchvision.datasets.CIFAR10(
         root=data_dir, train=True, download=True, transform=transform
@@ -33,7 +33,7 @@ def get_train_data_loader(data_dir="/tmp/pytorch/cifar-10-data"):
     return torch.utils.data.DataLoader(trainset, batch_size=4, shuffle=True, num_workers=2)
 
 
-def get_test_data_loader(data_dir="/tmp/pytorch/cifar-10-data"):
+def get_test_data_loader(data_dir="/tmp/lidar"):
     transform = _get_transform()
     testset = torchvision.datasets.CIFAR10(
         root=data_dir, train=False, download=True, transform=transform
