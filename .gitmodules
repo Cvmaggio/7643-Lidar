@@ -4,3 +4,6 @@
 [submodule "nutonomy-submodule"]
 	path = nutonomy-submodule
 	url = https://github.com/nutonomy/second.pytorch.git
+[submodule "mmdetection3d-submodule"]
+	path = mmdetection3d-submodule
+	url = https://github.com/open-mmlab/mmdetection3d.git
