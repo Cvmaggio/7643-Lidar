@@ -1,0 +1,12 @@
+Information about trained models:
+
+1. pretrained_models_v1.5
+Instructions: Download and unzip from https://drive.google.com/file/d/1YOpgRkBgmSAJwMknoXmitEArNitZz63C/view into trained_models folder. This creates pretrained_models_v15 folder
+Models Included: 
+- car_fhd
+- car_lite
+- car_onestage
+- pp_model_for_nuscenes_pretrain
+Trained by us: False
+
+
