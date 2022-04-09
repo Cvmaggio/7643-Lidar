@@ -1,0 +1,6 @@
+[submodule "travellor59-submodule"]
+	path = travellor59-submodule
+	url = https://github.com/traveller59/second.pytorch.git
+[submodule "nutonomy-submodule"]
+	path = nutonomy-submodule
+	url = https://github.com/nutonomy/second.pytorch.git
