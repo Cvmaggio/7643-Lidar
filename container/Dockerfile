@@ -16,7 +16,7 @@
 ARG REGION=us-west-2
 
 # SageMaker PyTorch image
-FROM 520713654638.dkr.ecr.$REGION.amazonaws.com/sagemaker-pytorch:0.4.0-cpu-py3
+FROM 520713654638.dkr.ecr.$REGION.amazonaws.com/sagemaker-pytorch:0.4.0-gpu-py3
 
 ENV PATH="/opt/ml/code:${PATH}"
 
