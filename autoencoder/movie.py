@@ -3,7 +3,7 @@ import os
 from tqdm.notebook import tqdm
 from ml_things import fix_text
 import io
-import torchtext
+# import torchtext
 import re
 
 import contractions
